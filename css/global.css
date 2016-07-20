@@ -9,8 +9,6 @@ body {
   background-attachment: fixed;
   background-position: bottom;
   background-size: cover; }
-  body p {
-    font-family: 'Lato', sans-serif; }
   body h4, body h5 {
     font-family: 'Roboto Condensed', sans-serif; }
 
@@ -98,6 +96,9 @@ body {
     margin-top: 25px;
     padding-top: 25px;
     min-width: 205px; }
+    @media (max-width: 992px) {
+      #skills #skill-box {
+        padding-bottom: 25px; } }
     #skills #skill-box .item {
       margin-left: 5px;
       margin-right: 5px;
@@ -126,5 +127,67 @@ body {
 #education {
   background-color: white;
   text-align: center; }
+  #education .education-box {
+    height: 165px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    /* habilita o flex nos filhos diretos */
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    /* centraliza na vertical */
+    -ms-align-items: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center; }
+  #education #education-info {
+    height: auto; }
+
+#footer {
+  background-color: white;
+  margin-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  #footer #photo, #footer #about-me-text {
+    height: 80px; }
+  #footer #about-me-text {
+    text-align: left;
+    padding-left: 30px;
+    /* habilita o flex nos filhos diretos */
+    display: -ms-flex;
+    display: -webkit-flex;
+    display: flex;
+    /* centraliza na vertical */
+    -ms-align-items: center;
+    -webkit-align-items: center;
+    align-items: center; }
+  #footer #photo {
+    text-align: center; }
+    #footer #photo .photo-img {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%; }
+  #footer #social {
+    height: 20px;
+    width: auto;
+    top: 0;
+    margin-left: auto;
+    margin-right: auto; }
+    #footer #social .icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 20px;
+      float: left; }
+    #footer #social #facebook {
+      background-image: url(../images/icon-fb.png); }
+    #footer #social #twitter {
+      background-image: url(../images/icon-twitter.png); }
+    #footer #social #linkedin {
+      background-image: url(../images/icon-linkedin.png); }
+    #footer #social #git {
+      background-image: url(../images/icon-git.png); }
 
 /*# sourceMappingURL=global.css.map */

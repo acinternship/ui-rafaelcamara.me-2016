@@ -91,6 +91,21 @@ body {
   background-color: white;
   text-align: center;
   min-width: 205px; }
+  #skills .btnShowSkills {
+    width: auto;
+    height: 40px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 15px;
+    border: 1px solid #2b2b2b;
+    background-color: transparent;
+    color: #2b2b2b; }
+    #skills .btnShowSkills:hover {
+      background-color: #2b2b2b;
+      color: white; }
+  #skills .hide {
+    display: none; }
   #skills #skill-box {
     background-color: #f5f5f5;
     margin-top: 25px;

@@ -145,6 +145,30 @@ body {
     text-align: center;
     min-width: 205px;
     
+    .btnShowSkills {
+        width: auto;
+        height: 40px;
+
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        
+        margin-top: 15px;
+        
+        border: 1px solid $pretty-black-grey;
+        
+        background-color: transparent;
+        color: $pretty-black-grey;
+        
+        &:hover {
+            background-color: $pretty-black-grey;
+            color: white;
+        }
+    }
+    
+    .hide {
+        display: none;
+    }
     #skill-box {
         background-color: $pretty-bg-grey;
         margin-top: 25px;

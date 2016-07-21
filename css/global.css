@@ -105,7 +105,8 @@ body {
       margin-bottom: 25px;
       padding: 10px;
       background-color: white;
-      min-width: 205px; }
+      min-width: 205px;
+      min-height: 60px; }
       #skills #skill-box .item .image {
         -webkit-filter: grayscale(1);
         filter: grayscale(1); }

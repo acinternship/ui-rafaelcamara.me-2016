@@ -23,6 +23,25 @@ body {
     }
 }
 
+.scrollToTop {
+	width:45px; 
+	height:69px;
+
+    background-image: url(../images/backToTop.png);
+    background-repeat: no-repeat;
+    opacity: 0.5;
+
+    position:fixed;
+	bottom:30px;
+	right:30px;
+	
+    display:none;
+
+    &:hover{
+        opacity: 1.0;
+    }
+}
+
 #introduction {
     height: -webkit-calc(100%);
     height:    -moz-calc(100%);
@@ -170,6 +189,8 @@ body {
         display: none;
     }
     #skill-box {
+        display: none;
+        
         background-color: $pretty-bg-grey;
         margin-top: 25px;
         

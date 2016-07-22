@@ -12,6 +12,19 @@ body {
   body h4, body h5 {
     font-family: 'Roboto Condensed', sans-serif; }
 
+.scrollToTop {
+  width: 45px;
+  height: 69px;
+  background-image: url(../images/backToTop.png);
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none; }
+  .scrollToTop:hover {
+    opacity: 1.0; }
+
 #introduction {
   height: -webkit-calc(100%);
   height: -moz-calc(100%);
@@ -107,6 +120,7 @@ body {
   #skills .hide {
     display: none; }
   #skills #skill-box {
+    display: none;
     background-color: #f5f5f5;
     margin-top: 25px;
     padding-top: 25px;

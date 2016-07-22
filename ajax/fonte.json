@@ -1,0 +1,84 @@
+{
+    "name": "Rafael Câmara",
+    "photoUser": "images/perfil.png",
+    "aboutMeText": "Self-taught, creative and passionate about computer science, web and mobile development.",
+    "mySkillsText": "I’ve worked with Java, HTML/CSS, Javascript and Swift. In addition, I have a lot of experience with design, being an experient Photoshop, Illustrator and Fireworks user.",
+    "facebook": "http://www.facebook.com/rcamaram",
+    "twitter": "http://twitter.com/rcamaram",
+    "linkedin": "http://www.linkedin.com/in/rafaelcamaram",
+    "github": "http://github.com/rafaelcamaram",
+    "company": "Avenue Code",
+    "companyLink": "http://www.avenuecode.com/",
+    "skills": [
+        "images/skills/htmlhover.png",
+        "images/skills/bootstraphover.png",
+        "images/skills/javahover.png",
+        "images/skills/photoshophover.png",
+        "images/skills/csshover.png",
+        "images/skills/materializehover.png",
+        "images/skills/swifthover.png",
+        "images/skills/illustratorhover.png",
+        "images/skills/sasshover.png",
+        "images/skills/wordpresshover.png",
+        "images/skills/konyhover.png",
+        "images/skills/scrumhover.png"
+    ],
+    "work": [
+        {
+            "logo": "images/ac-logo.png",
+            "role": "Intern",
+            "period": "July 2016 ~ Now",
+            "description": "Intern at Avenue Code - Job Rotation Internship Program."
+        },
+        {
+            "logo": "images/puc-logo.png",
+            "role": "Teaching Assistant of Algorithms and Data Structures",
+            "period": "March 2016 ~ June 2016",
+            "description": "Teaching Assistant of Algorithms and Data Structures (Java) at the Pontifical Catholic University of Minas Gerais (PUC Minas)."
+        },
+        {
+            "logo": "images/dti-logo.png",
+            "role": "Intern at Development for Mobile Devices",
+            "period": "February 2015 ~ August 2015",
+            "description": "Development of multiplatform applications for mobile devices. Participation in productivity rooms directly with the customer."
+        },
+        {
+            "logo": "images/spasso-logo.png",
+            "role": "Web Designer",
+            "period": "January 2012 ~ January 2013",
+            "description": "Freelancer. Development of dynamic and functional websites; sometimes using Wordpress."
+        }
+    ],
+    "education": [
+        {
+            "title": "B.S. in Computer Science",
+            "institution": "PUC Minas",
+            "period": "2014/2 | 2018/2"
+        },
+        {
+            "title": "Graphic Design (Start)",
+            "institution": "SAGA - School of Art, Game and Animation",
+            "period": "2012/2 | 2013/2"
+        }, 
+        {
+            "title": "Concepts and Fundamentals of <br> Logic Programming, Object-oriented and SWIFT at",
+            "institution": "Instituto de Pesquisas Eldorado",
+            "period": "2016/3 | 2016/3"
+        },
+        {
+            "title": "Fundamentals and Practices of<br>Programming Language SWIFT at",
+            "institution": "Instituto de Pesquisas Eldorado",
+            "period": "2016/5 | 2016/5"
+        },
+        {
+            "title": "Developing web applications of Bootstrap at",
+            "institution": "Centro Universitário Una",
+            "period": "2015/5 | 2015/5"  
+        },
+        {
+            "title": "Developing dynamic web sites <br>using Bootstrap at",
+            "institution": "Quartel Design",
+            "period": "2012/5 | 2012/5"
+        }
+    ]
+}
